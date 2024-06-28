@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "rj-type-hint-checker"
+requires-python = ">= 3.12"
+authors = [{name = "RJ_Infinity"},]
+description = "a rough equivilent of isinstance that works with type hints"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["isinstance", "type hints", "types"]
+
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/RJ-Infinity/type_hint_checker"
+Documentation = "https://github.com/RJ-Infinity/type_hint_checker"
+Repository = "https://github.com/RJ-Infinity/type_hint_checker"
+Issues = "https://github.com/RJ-Infinity/type_hint_checker/issues"
